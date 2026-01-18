@@ -1,6 +1,7 @@
 
 class LinkedList {
     class Node{
+        int val;
         int data;
         Node next;
         Node(int data){
@@ -37,7 +38,7 @@ void palin(){
             temp1=temp1.next;
             temp=temp.next;
         }
-        if(temp1.val!=temp.val)return false;
+        // if(temp1.val!=temp.val)return null;
 
     }
 
