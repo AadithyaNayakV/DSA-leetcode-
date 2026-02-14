@@ -54,7 +54,7 @@ node.height = 1 + Math.max(h(node.left), h(node.right));
 }
 
  boolean balanced(Node node){
-    if(node==null)return 
+    if(node==null)return true;
     if(h(node.left)-h(node.right)<=1){balanced(node.left);balanced(node.right);}
         else return false;
 }
