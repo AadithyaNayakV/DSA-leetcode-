@@ -11,17 +11,19 @@ static ArrayList<String> list=new ArrayList<>();
         }
 
     }
-    static ArrayList<String> helper(String p,String un ){
+    static void helper(String p,String un ){
         if(un.isEmpty()){
-            System.out.println(p);
+            // System.out.println(p);
             list.add(p);
+            return;
+            
         }
         int digit = un.charAt(0)-'0';
-        for(int i=((digit-1)*3);i<((digit)*3)+3;i++){
+        for(int i=(digit-1)*3;i<digit*3;i++){
             char ch=(char)('a'+i);
             helper(p+ch,un.substring(1));
 
         }
-        return list;
+        
     }
 }
