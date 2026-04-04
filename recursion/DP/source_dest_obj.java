@@ -8,8 +8,7 @@ public class source_dest_obj {
    static void helper(String path,int s,int d,int a[][]){
       if(s>2||d>2)return;
       if(a[s][d]==1)return;
-        if(s==2&&d==2){
-            System.out.println(path);
+        if(s==2&&d==2){System.out.println(path);
    return ;}
 
         
