@@ -13,6 +13,7 @@ public class source_dest {
 
          helper(path+"D",s-1, d);
           helper(path+"R",s, d-1);
+          helper(path+"di",s-1, d-1);
           
     }
 }
