@@ -14,6 +14,8 @@ public class shortest_newtwork_connection{
     {1, 3},
     {2, 4},
     {3, 4},
+    {3, 6},
+
     {4, 5},
     {5, 6}
 };
