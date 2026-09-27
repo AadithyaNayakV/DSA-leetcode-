@@ -5,7 +5,7 @@ public class max_profit_jouney{
     public static void main(String[] args) {
         int nums[]={10,20,0,8,9,9};
         dp=new int[nums.length];
-        Arrays.fill(dp,Integer.MIN_VALUE);
+        Arrays.fill(dp,Integer.MIN_VALUE/2);
         int k=3;
 
 
